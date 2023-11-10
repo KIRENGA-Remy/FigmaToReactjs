@@ -5,7 +5,7 @@ import screen_content from '../assets/screen_content.png'
 
 function Organization() {
   return (
-    <div>
+    <div id='product'>
       <div className='flex justify-center items-center'>
         <img src={video_screen} alt="" className='text-center w-[460px] h-[240px] md:h-[280px] rounded-md  my-4' />
       </div>

@@ -11,11 +11,11 @@ const Footer = () => {
     <div className='flex flex-col md:flex-row items-center justify-center gap-16 md:gap-32 py-12'>
       <div className='flex flex-col gap-4'>
         <h1 className='text-2xl font-semibold'>Pages</h1>
-        <p className='hover:underline cursor-pointer text-2xl'>Home</p>
-        <p className='hover:underline cursor-pointer text-2xl'>Product</p>  
-        <p className='hover:underline cursor-pointer text-2xl'>Pricing</p>
-        <p className='hover:underline cursor-pointer text-2xl'>About</p>
-        <p className='hover:underline cursor-pointer text-2xl'>Contact</p>
+        <p className='hover:underline cursor-pointer text-2xl'> <a href='#home'>Home</a></p>
+        <p className='hover:underline cursor-pointer text-2xl'> <a href='#product'>Product</a></p>  
+        <p className='hover:underline cursor-pointer text-2xl'> <a href='#pricing'>Pricing</a></p>
+        <p className='hover:underline cursor-pointer text-2xl'> <a href='#about'>About</a></p>
+        <p className='hover:underline cursor-pointer text-2xl'> <a href='#contact'>Contact</a></p>
       </div>
       <div className='flex flex-col gap-4'>
         <h1 className='text-2xl font-semibold'>Tomothy</h1>

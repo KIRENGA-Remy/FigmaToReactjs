@@ -8,7 +8,7 @@ import { BsLinkedin, BsTwitter } from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center my-24 '>
+    <div className='flex flex-col items-center justify-center my-24' id='contact'>
         <h1 className='text-2xl font-semibold my-3'>Contact Us</h1>
         <p className='mb-12 mx-12'>Most calendars are designed for teams. Slate is designed for freelancers</p>
         <div className='flex flex-col gap-6 md:flex-row'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center' id='pricing'>
      <h1 className='text-3xl mb-3'>Pricing</h1>
      <p className='mx-5'>Most calendars are designed for teams. Slate is designed for freelancers</p>
      <div className='flex flex-col items-center text-center justify-center gap-8 md:flex-row my-12'>
